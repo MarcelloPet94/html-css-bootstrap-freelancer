@@ -10,6 +10,8 @@
     <title>Bootstrap</title>
 </head>
 <body>
+
+<!--  esercizio individuale
 <div class="container">
     <div class="row">
         <div class="col-9 pt-3 pb-3">
@@ -25,21 +27,44 @@
             <a href="#">contact</a>
         </div>
     </div>
-</div>
+</div> -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse
+      " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<div class="bg_full">
+
+<div id="bg" class="bg_full">
     <div class="container">
         <div class="row d-flex flex-column align-items-center">
             <div class="col-9 pt-5 pb-5 d-flex align-items-center justify-content-center">
-                <div class="img_cont"></div>    
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1200px-Circle-icons-profile.svg.png" class="img_static_w">    
             </div>
-            <div class="col-9 pt-3 pb-3">
-                <h2 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo vel ipsum voluptatibus accusamus fuga perferendis illo.</h2>
+            <div class="col-9 pt-3">
+                <h2 class="text-center">start boostrap</h2>
             </div>
-            <div class="col-9 pt-3 pb-3">
-                <p class="text-center">star</p>
+            <div class="col-9">
+                <p class="text-center star"><i class="bi bi-star-fill"></i></p>
             </div>
-            <div class="col-9 pt-3 pb-3 d-flex justify-content-center">
+            <div class="col-9 pb-3 d-flex justify-content-center">
                 <p class="text-center">Graphic - Web - illustrator</p>
             </div>
         </div>
@@ -112,7 +137,7 @@
         </div>
     </div>
 </div>
-
+<!-- FORM -->
 <div class="container">
     <div class="row d-flex flex-column align-items-center">
         <div class="col-9 pt-5 pb-3 text-center">
@@ -120,6 +145,7 @@
             <p>star</p>
         </div>
     </div>
+    <!--
     <form action="#">
         <div class="row d-flex flex-column align-items-center">
             <div class="col-5">
@@ -149,13 +175,29 @@
             </div>
         </div>    
     </form>
+    -->
+    <form action="#">
+        <div class="row d-flex flex-column align-items-center">
+            <div class="col-9">
+                <div class="input-group underlineBorder mb-3">
+                    <input type="text" class="form-control" placeholder="Name" aria-label="name" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group  underlineBorder mb-3">
+                    <input type="text" class="form-control" placeholder="Email" aria-label="name" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group underlineBorder mb-3">
+                    <textarea class="form-control" placeholder="Message" aria-label="With textarea"></textarea>
+                </div>
+            </div>    
+    </form>
 </div>
-
+<!-- FOOTER -->
 <div class="bg_foot">
     <div class="container">
         <div class="row text-center pt-5 pb-5">
             <div class="col-xxl-4 col-sm-12">
-                <p>location<br>2215 Jhon Daniel Drive Clark, MO 54243</p></div>
+                <p>location<br>2215 Jhon Daniel Drive Clark, MO 54243</p>
+            </div>
             
             <div class="col-xxl-4 col-sm-12 d-flex flex-column">
                 <p>AROUND THE WEB</p>
@@ -168,7 +210,9 @@
 
             </div>
 
-            <div class="col-xxl-4 col-sm-12"><p>ABOUT FREELANCER</p></div>
+            <div class="col-xxl-4 col-sm-12">
+                <p>ABOUT FREELANCER</p>
+            </div>
         </div>
     </div>
 </div>
