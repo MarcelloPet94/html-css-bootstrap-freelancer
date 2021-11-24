@@ -10,7 +10,19 @@
 */
 
 .bg_full {
-    background-color: lightgreen;
+    background-color: #19bc9c;
+}
+
+#bg h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#bg p {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 .bg_foot {
@@ -18,14 +30,43 @@
     color: #fff;
 }
 
-.img_cont {
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.img_static_w {
     width: 200px;
-    height: 200px;
-    background-color: lightcoral;
+    height: 200px;    
 }
 
 .img_box img {
     width: 100%;
     border-radius: 15px;
 }
+
+.bi-star-fill {
+    font-size: 18px;
+    margin: 16px;
+    color: #fff;
+}
+
+.star::before,
+.star::after {
+    content: "";
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    line-height: 4px;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+.form-control {
+    border:none;
+}
+
+.underlineBorder {
+    border-bottom: 1px solid #ced4da;
+}
+
 
