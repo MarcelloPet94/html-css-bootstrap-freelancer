@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a {text-decoration: none;}
 /*
 [class*="col"] {
     background-color: lightcoral;
@@ -25,6 +27,10 @@
     background-color: #19bc9c;
 }
 
+.txt_custom_color {
+    color: #19bc9c;
+}
+
 #bg h2 {
     font-size: 3rem;
     text-transform: uppercase;
@@ -40,6 +46,7 @@
 .bg_foot {
     background-color: #2b3e50;
     color: #fff;
+    font-size: 24px;
 }
 
 .navbar-collapse {
@@ -59,6 +66,10 @@
 .bi-star-fill {
     font-size: 18px;
     margin: 16px;
+}
+
+.bi-download {
+    margin-right: 8px;
 }
 
 .w {color: #fff;}
@@ -92,6 +103,22 @@
 
 .underlineBorder {
     border-bottom: 1px solid #ced4da;
+}
+
+.icon_cont {
+    display: flex;
+    justify-content: center;
+}
+
+.icon_radius {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #fff;
 }
 
 
