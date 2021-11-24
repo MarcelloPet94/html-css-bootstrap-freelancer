@@ -59,11 +59,13 @@
 .bi-star-fill {
     font-size: 18px;
     margin: 16px;
-    color: #fff;
 }
 
-.star::before,
-.star::after {
+.w {color: #fff;}
+.b {color: #333333;}
+
+.starWhite::before,
+.starWhite::after {
     content: "";
     display: inline-block;
     width: 30%;
@@ -71,6 +73,17 @@
     line-height: 4px;
     vertical-align: middle;
     background-color: #fff;
+}
+
+.starDark::before,
+.starDark::after {
+    content: "";
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    line-height: 4px;
+    vertical-align: middle;
+    background-color: #333333;
 }
 
 .form-control {
